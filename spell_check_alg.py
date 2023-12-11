@@ -526,7 +526,7 @@ def begin_check_word(dictionary_file):
 				print("\nOkay. Goodbye :)")
 				return 0
 		else:
-			print("FUCK!!! Sorry I couldn't help.\n\n")
+			print("Sorry I couldn't help.\n\n")
 			want_to_continue = input("Would you like to check another word? (yes/no) : ")
 			if want_to_continue == 'yes':
 				begin_check_word(dictionary_file)
